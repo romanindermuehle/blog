@@ -1,0 +1,19 @@
+nav a:hover {
+  color: #ffd700;
+}
+.link_tag a {
+  text-decoration: none;
+  color: #ffd700;
+}
+.post_Image {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  object-position: center;
+  border-radius: 40px;
+}
+@media (min-width: 768px) {
+  img {
+    min-width: 500px;
+  }
+}
